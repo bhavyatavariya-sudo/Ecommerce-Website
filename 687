@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasty Bites - Indian Fast Food</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fff8f0;
+    color:#333;
+}
+
+header{
+    background:#ff5722;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+header h1{
+    font-size:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1400&q=80");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h2{
+    font-size:50px;
+}
+
+.hero p{
+    font-size:22px;
+    margin:20px 0;
+}
+
+.btn{
+    display:inline-block;
+    background:#ffc107;
+    color:black;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:30px;
+    margin:10px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#ff5722;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.card p{
+    color:#ff5722;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.feature{
+    background:#ffeb3b;
+    padding:20px;
+    width:220px;
+    text-align:center;
+    border-radius:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍔 Tasty Bites</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Authentic Indian Fast Food</h2>
+    <p>Fresh • Hot • Delicious</p>
+
+    <a href="#" class="btn">Order Now</a>
+    <a href="#" class="btn">View Menu</a>
+</section>
+
+<section>
+<h2>Our Popular Menu</h2>
+
+<div class="menu">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80">
+<h3>Veg Burger</h3>
+<p>₹99</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80">
+<h3>Cheese Pizza</h3>
+<p>₹199</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80">
+<h3>Grilled Sandwich</h3>
+<p>₹120</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80">
+<h3>Pav Bhaji</h3>
+<p>₹150</p>
+</div>
+
+</div>
+</section>
+
+<section>
+
+<h2>Why Choose Us?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>🥗 Fresh Ingredients</h3>
+</div>
+
+<div class="feature">
+<h3>⚡ Fast Service</h3>
+</div>
+
+<div class="feature">
+<h3>🧼 Hygienic Kitchen</h3>
+</div>
+
+<div class="feature">
+<h3>💰 Affordable Price</h3>
+</div>
+
+</div>
+
+</section>
+
+<section style="background:#ff5722;color:white;text-align:center;">
+<h2 style="color:white;">Special Offer</h2>
+
+<h3>🎉 Buy 2 Burgers & Get 1 Cold Drink Free!</h3>
+
+</section>
+
+<section style="text-align:center;">
+<h2>Contact Us</h2>
+
+<p>📍 Your Stall Address</p>
+<p>📞 +91 98765 43210</p>
+<p>🕒 Open Daily: 10:00 AM – 11:00 PM</p>
+
+</section>
+
+<footer>
+<p>© 2026 Tasty Bites | Made with ❤️ in India</p>
+</footer>
+
+</body>
+</html>
